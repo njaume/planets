@@ -1,6 +1,6 @@
 import { IPlanet } from "../../consts";
 
-const PlanetCard = ({ planet, ...others }: { planet: IPlanet }) => {
+const PlanetCard = ({ planet }: { planet: IPlanet }) => {
   if (!planet) {
     return null;
   }
